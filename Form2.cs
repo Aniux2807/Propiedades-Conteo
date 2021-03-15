@@ -79,5 +79,25 @@ namespace Lab3_repaso
                 clearTextFiles();
             }
         }
+
+        private void textDPI_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

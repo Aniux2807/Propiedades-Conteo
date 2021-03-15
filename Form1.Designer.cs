@@ -43,7 +43,8 @@ namespace Lab3_repaso
             this.selectOptionToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1001, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(751, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -53,33 +54,34 @@ namespace Lab3_repaso
             this.enterDataToolStripMenuItem,
             this.showDataToolStripMenuItem});
             this.selectOptionToolStripMenuItem.Name = "selectOptionToolStripMenuItem";
-            this.selectOptionToolStripMenuItem.Size = new System.Drawing.Size(111, 24);
-            this.selectOptionToolStripMenuItem.Text = "Select option";
+            this.selectOptionToolStripMenuItem.Size = new System.Drawing.Size(126, 20);
+            this.selectOptionToolStripMenuItem.Text = "Selecciona opciones";
             // 
             // enterDataToolStripMenuItem
             // 
             this.enterDataToolStripMenuItem.Name = "enterDataToolStripMenuItem";
-            this.enterDataToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.enterDataToolStripMenuItem.Text = "Enter Data";
+            this.enterDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.enterDataToolStripMenuItem.Text = "seleccionar datos";
             this.enterDataToolStripMenuItem.Click += new System.EventHandler(this.enterDataToolStripMenuItem_Click);
             // 
             // showDataToolStripMenuItem
             // 
             this.showDataToolStripMenuItem.Name = "showDataToolStripMenuItem";
-            this.showDataToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.showDataToolStripMenuItem.Text = "Show Data";
+            this.showDataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.showDataToolStripMenuItem.Text = "Mostrar datos";
             this.showDataToolStripMenuItem.Click += new System.EventHandler(this.showDataToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1001, 587);
+            this.ClientSize = new System.Drawing.Size(751, 477);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "seleccionar";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
